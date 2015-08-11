@@ -35,7 +35,7 @@
         (let* ((point (car points))
                 (x (* (/ 2 3) width point))
                 (y (- height (* (/ 2 3) height point point)))
-                (r (/ width (* point 10)))
+                (r (/ (max width height) (* point 10)))
                 (vertices 3)
                 (thetaCoeff (* point rotation))
                 (outlineC (mixcolors startC endC point))
