@@ -1,7 +1,7 @@
 (script-fu-register
   "script-fu-polygon"
   "Polygon"
-  "Creates a n-sided polygon and selected brush."
+  "Creates a n-sided polygon with the selected brush."
   "John King"
   ""
   "August 2015"
